@@ -22,6 +22,8 @@
   <link rel="stylesheet" href="assets/css/mainSkillShare.css">
   <link rel="stylesheet" href="assets/css/animated.css">
   <link rel="stylesheet" href="assets/css/owl.css">
+  <link rel="stylesheet" href="assets/css/floatingChat.css">
+
 
 
 </head>
@@ -74,6 +76,41 @@
     </div>
   </header>
   <!-- ***** Header Area End ***** -->
+
+  <!-- ***** Floating Chat Icon ****  -->
+
+  <div class="floating-chat">
+    <i class="fa fa-comments" aria-hidden="true"></i>
+    <div class="chat">
+      <div class="header">
+        <span class="title">
+          what's on your mind?
+        </span>
+        <button>
+          <i class="fa fa-times" aria-hidden="true"></i>
+        </button>
+
+      </div>
+      <ul class="messages">
+        <li class="other">How can I help you today?</li>
+        <li class="other">You can ask doubts, or any general queries.</li>
+        <li class="self">Help me with... creativity</li>
+        <li class="other">Elaborate</li>
+        <li class="self">Like, what am I supposed to write here?</li>
+        <li class="other">IDK, I'm just a language model developed by OpenAI</li>
+        <li class="self">I guess that makes sense.</li>
+        <li class="other">GPT API will be integrated here so stay tuned.</li>
+        <li class="self">So excited *-* waku waku</li>
+      </ul>
+      <div class="footer">
+        <div class="text-box" contenteditable="true" disabled="true"></div>
+        <button id="sendMessage">send</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ***** Floating Chat Icon End ****  -->
+
 
   <div class="main-banner wow fadeIn" id="top" data-wow-duration="1s" data-wow-delay="0.5s">
     <div class="container">
@@ -642,8 +679,9 @@
       <div class="row">
         <div class="col-lg-12">
           <p>Designed by Team Hakuna
-            <br>Members: <a href="https://www.linkedin.com/in/shreyansh-mathur-5048801aa/" target="_blank">Shreyansh Mathur</a>, 
-            <a href="https://www.linkedin.com/in/sarthak235/" target="_blank">Sarthak Tanwar</a>, 
+            <br>Members: <a href="https://www.linkedin.com/in/shreyansh-mathur-5048801aa/" target="_blank">Shreyansh
+              Mathur</a>,
+            <a href="https://www.linkedin.com/in/sarthak235/" target="_blank">Sarthak Tanwar</a>,
             <a href="https://www.linkedin.com/in/mishti-rastogi-565004254" target="_blank">Mishti Rastogi</a>
           </p>
         </div>
@@ -658,6 +696,8 @@
   <script src="assets/js/animation.js"></script>
   <script src="assets/js/imagesloaded.js"></script>
   <script src="assets/js/custom.js"></script>
+  <script src="assets/js/floatingChat.js"></script>
+
 
 </body>
 
