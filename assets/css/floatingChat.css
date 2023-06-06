@@ -251,6 +251,12 @@ body {
     padding: 10px;
     max-width: 90%;
   }
+
+  .floating-chat.expand {
+    max-width: 80%;
+    width: 80%;
+    height: 60%;
+  }
 }
 
 
