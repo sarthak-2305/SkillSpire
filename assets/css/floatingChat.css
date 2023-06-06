@@ -43,9 +43,9 @@ body {
 }
 
 .floating-chat.expand {
-  width: 350px;
-  max-height: 600px;
-  height: 600px;
+  width: 30%;
+  max-height: 60%;
+  height: 60%;
   border-radius: 5px;
   cursor: auto;
   opacity: 1;
