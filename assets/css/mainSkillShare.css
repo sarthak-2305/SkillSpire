@@ -940,11 +940,19 @@ Features Style
 }
 
 .first-feature:hover .icon {
-  background-image: url(../images/features-icon-white-01.png);
+  background-image: url(../images/questsWhite.png);
 }
 
 .second-feature:hover .icon {
-  background-image: url(../images/features-icon-white-02.png);
+  background-image: url(../images/roadmapWhite.png);
+}
+
+.third-feature:hover .icon {
+  background-image: url(../images/leaderboardsWhite.png);
+}
+
+.fourth-feature:hover .icon {
+  background-image: url(../images/progressReportWhite.png);
 }
 
 .features-item .number h6 {
@@ -979,12 +987,21 @@ Features Style
 }
 
 .first-feature .icon {
-  background-image: url(../images/features-icon-black-01.png);
+  background-image: url(../images/questsBlack.png);
 }
 
 .second-feature .icon {
-  background-image: url(../images/features-icon-black-02.png);
+  background-image: url(../images/roadmapBlack.png);
 }
+
+.third-feature .icon {
+  background-image: url(../images/leaderboardsBlack.png);
+}
+
+.fourth-feature .icon {
+  background-image: url(../images/progressReportBlack.png);
+}
+
 
 .features-item .icon {
   width: 63px;
